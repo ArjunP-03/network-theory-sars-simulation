@@ -30,7 +30,7 @@ This project reproduces and analyzes results from Meyers et al.'s study on the S
 - Matplotlib (visualizations)
 
 ## Project Artifacts
-- **Report / Presentation:** [Link or upload PDF]
+- **Report / Presentation:** [Final Paper](https://docs.google.com/document/d/1fumZyrQmjkjLv4bC6rfejxYPUGgOdw8r-ByYGD3JnsQ/edit?usp=sharing)
 - **Original code:** Not available; future versions may include recreated simulations.
 
 ## Future Work
