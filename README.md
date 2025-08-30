@@ -1,24 +1,42 @@
-# Nikola Jokić 2023 Playoff Analysis
+# Network Theory and SARS Simulation
 
-This project analyzes Nikola Jokić's 2023 NBA playoff performance using Python for data analysis and visualization. 
+This project reproduces and analyzes results from Meyers et al.'s study on the SARS outbreak using network theory and epidemiological modeling. It was completed as part of **CSCI 3352 – Biological Networks** at the University of Colorado Boulder (Fall 2024).
 
 ## Project Overview
-- Collected Jokić's game-by-game playoff statistics.
-- Applied interpolation and differentiation to study trends in points, rebounds, and assists.
-- Built simple models to predict performance metrics.
+- Modeled disease spread across various network structures, including random, small-world, and scale-free networks.
+- Simulated outbreak dynamics to understand how network topology affects transmission.
+- Reproduced key findings from Meyers et al.'s "Network Theory and SARS" study.
+- Analyzed results to gain data-driven insights into epidemic propagation.
+
+## Goals
+- Apply network theory to model epidemic spread.
+- Demonstrate how different network topologies impact the speed and scale of outbreaks.
+- Gain hands-on experience with epidemiological modeling in Python.
+
+## Methodology
+- Simulations were performed to model disease transmission across different types of networks.
+- Key metrics such as infection rate, peak infection, and outbreak duration were analyzed.
+- Python libraries used included `NetworkX`, `NumPy`, and `Matplotlib` for modeling and visualization.
+
+## Results & Insights
+- Different network structures showed distinct patterns in outbreak dynamics.
+- Small-world networks tended to spread infection faster than random networks.
+- Analysis confirmed key trends reported in the original Meyers et al. study.
 
 ## Technologies Used
 - Python
-- NumPy
-- SciPy
-- Matplotlib
+- NetworkX (graph modeling)
+- NumPy / Pandas (data handling)
+- Matplotlib (visualizations)
 
-## Results
-- Identified patterns in scoring and rebounding across the playoff series.
-- Created visualizations to highlight performance changes over time.
-- Built models to project potential future outcomes based on statistical trends.
+## Project Artifacts
+- **Report / Presentation:** [Link or upload PDF]
+- **Original code:** Not available; future versions may include recreated simulations.
 
-## Files
-- `jokic_analysis.ipynb` – Jupyter notebook with full code and visualizations.
-- `presentation.pdf` – Slides summarizing key findings (linked [here](#)).
+## Future Work
+- Recreate the simulations in Python to provide code and interactive notebooks.
+- Extend the project to analyze other epidemiological datasets.
+- Implement more complex network structures and disease models.
+
+---
 
